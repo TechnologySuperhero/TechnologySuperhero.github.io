@@ -48,13 +48,13 @@ h1, h2, h3 {
 	margin: 0 auto;
 }
 
-@media screen and (max-width: 800px) {
+@media handheld, screen and (max-width: 800px) {
 	#container {
 		width: 100%;
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media handheld, screen and (max-width: 600px) {
 	.contentbox {
 		margin: auto;
 	}
