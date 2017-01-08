@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Nixie+One");
+@import url("https://fonts.googleapis.com/css?family=Multi");
+
+body {
+	font-family: 'Multi';
+	background: url(images/subtle_surface.png);
+}
+
+h1, h2, h3 {
+	font-family: 'Nixie One';
+	color: #9f5827;
+	font-weight: bold;
+	margin: .1em;
+}
+
+#container {
+	border-radius: 25px;
+	margin: auto;
+	width: 800px;
+	background: #fff;
+}
+
+#header {
+	text-align:center;
+	padding: 1em;
+}
+
+#main {
+	background: url(images/content-bg.jpg) no-repeat top left;
+	min-height: 624px;
+	display: inline-flex;
+}
+
+.contentbox {
+	border-radius: 25px;
+    border: 1px solid #66371A;
+    padding: 1em; 
+	margin: auto 1em;
+	width: 50%;
+	background:url(images/box-bg.png) left top;
+	margin-left: auto;
+	min-width: 350px;
+	
+}
+
+.contentbox iframe {
+	display: block;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+	#container {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.contentbox {
+		margin: auto;
+	}
+}
