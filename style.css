@@ -59,3 +59,9 @@ h1, h2, h3 {
 		margin: auto;
 	}
 }
+
+@media handheld, screen and (max-width: 450px) {
+	.contentbox {
+		padding: 0;
+	}
+}
